@@ -1,0 +1,18 @@
+{
+  "name": "package-json-dependencies-to-array",
+  "version": "0.0.0",
+  "description": "Turn package.json into an array of dependencies with package, version requirement and dependency type",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "keywords": [
+    "package.json",
+    "dependencies"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/package-json-dependencies-to-array.git"
+  },
+  "scripts": {
+    "test": "node test/simple-test.js"
+  }
+}
