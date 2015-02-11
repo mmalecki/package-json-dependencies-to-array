@@ -29,7 +29,9 @@ Handles the following types of dependencies:
 * regular - `type` is `'dependency'`
 * development - `type` is `'dev'`
 * optional - `type` is `optional`
-* bundled - `type` is `bundled`
+
+Additionally, depending on whether the package is bundled, `bundled` is set
+accordingly.
 
 ## Edge cases
 Please note that `package-json-dependencies-to-array` doesn't handle edge
