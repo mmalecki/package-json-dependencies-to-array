@@ -2,7 +2,8 @@
 
 module.exports = function(packageJson) {
   var result = []
-  var bundled = packageJson.bundledDependencies || packageJson.bundleDependencies || [];
+  var bundled = packageJson.bundledDependencies || packageJson.bundleDependencies;
+  if (!bundled || !Array.isArray(bundled)) bundled = [];
 
   function process(obj, type) {
     obj && typeof obj === 'object' && Object.keys(obj).forEach(function(package_) {
