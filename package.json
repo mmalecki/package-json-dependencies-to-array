@@ -1,6 +1,6 @@
 {
   "name": "package-json-dependencies-to-array",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Turn package.json into an array of dependencies with package, version requirement and dependency type",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "keywords": [
