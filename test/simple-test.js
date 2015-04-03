@@ -10,3 +10,9 @@ assert.deepEqual(dependenciesToArray({
 }), [
   { package: 'foo', version: '^1.0.0', type: 'dependency', bundled: false }
 ])
+
+assert.deepEqual(dependenciesToArray({
+  bundledDependencies: ['foo']
+}), [
+  { package: 'foo', bundled: true }
+])
