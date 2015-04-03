@@ -8,5 +8,5 @@ assert.deepEqual(dependenciesToArray({
     foo: '^1.0.0'
   }
 }), [
-  { package: 'foo', version: '^1.0.0', type: 'dependency' }
+  { package: 'foo', version: '^1.0.0', type: 'dependency', bundled: false }
 ])
